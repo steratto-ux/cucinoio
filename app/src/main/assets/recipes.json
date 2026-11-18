@@ -1,0 +1,3278 @@
+{
+ "version": 1,
+ "recipes": [
+  {
+   "id": "pasta-pomodoro-basilico",
+   "title": "Pasta al pomodoro e basilico",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 20,
+   "servings": 4,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 360.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 500.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Soffriggi la cipolla tritata in 3 cucchiai d'olio a fuoco dolce per 5 minuti.",
+    "Aggiungi la passata e un pizzico di sale, poi cuoci per 15 minuti con il coperchio socchiuso.",
+    "Lessa la pasta in abbondante acqua salata e scolala al dente.",
+    "Condisci con il sugo e profuma con foglie di basilico spezzettate."
+   ],
+   "note": "",
+   "wiki": "Spaghetti al pomodoro"
+  },
+  {
+   "id": "pasta-al-tonno",
+   "title": "Pasta al tonno",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 20,
+   "servings": 4,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "pesce",
+    "veloce",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 360.0
+    },
+    {
+     "name": "tonno sott'olio",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 160.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 400.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Fai dorare lo spicchio d'aglio schiacciato in 3 cucchiai d'olio, poi toglilo.",
+    "Versa la passata, sala e cuoci 10 minuti.",
+    "Unisci il tonno sgocciolato e sbriciolato, cuoci ancora 2 minuti.",
+    "Scola la pasta al dente, saltala nel sugo e completa con prezzemolo tritato."
+   ],
+   "note": "",
+   "wiki": "Pasta al tonno"
+  },
+  {
+   "id": "spaghetti-aglio-olio",
+   "title": "Spaghetti aglio, olio e peperoncino",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 15,
+   "servings": 4,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 360.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 3.0
+    },
+    {
+     "name": "peperoncino",
+     "unit": "",
+     "aisle": "condimenti"
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lessa gli spaghetti in acqua salata e conserva una tazzina d'acqua di cottura.",
+    "In padella scalda 5 cucchiai d'olio con l'aglio a fettine e il peperoncino, senza far bruciare l'aglio.",
+    "Scola la pasta due minuti prima del tempo e finisci la cottura in padella con un poco d'acqua di cottura.",
+    "Spolvera con prezzemolo tritato e servi subito."
+   ],
+   "note": "",
+   "wiki": "Spaghetti aglio, olio e peperoncino"
+  },
+  {
+   "id": "pasta-zucchine-ricotta",
+   "title": "Pasta con zucchine e ricotta",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "vegetariano"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 360.0
+    },
+    {
+     "name": "zucchine",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 400.0
+    },
+    {
+     "name": "ricotta",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 200.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia le zucchine a rondelle e rosolale in padella con l'aglio e 3 cucchiai d'olio per 10 minuti.",
+    "Lessa la pasta e scolala al dente tenendo da parte un mestolo d'acqua di cottura.",
+    "Mescola la ricotta con parmigiano e un poco d'acqua di cottura fino a ottenere una crema.",
+    "Salta la pasta con le zucchine, unisci la crema di ricotta e servi."
+   ],
+   "note": "",
+   "wiki": "Pasta alle zucchine"
+  },
+  {
+   "id": "gnocchi-sorrentina",
+   "title": "Gnocchi alla sorrentina",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🍅",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "gnocchi di patate",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 800.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 400.0
+    },
+    {
+     "name": "mozzarella",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 200.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda la passata con un filo d'olio e un pizzico di sale per 10 minuti.",
+    "Lessa gli gnocchi in acqua salata: sono pronti quando vengono a galla.",
+    "Versali in una pirofila con il sugo, la mozzarella a dadini e il basilico.",
+    "Spolvera di parmigiano e gratina in forno a 200°C per 10 minuti."
+   ],
+   "note": "",
+   "wiki": "Gnocchi alla sorrentina"
+  },
+  {
+   "id": "pasta-al-pesto",
+   "title": "Pasta al pesto",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 15,
+   "servings": 4,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 360.0
+    },
+    {
+     "name": "pesto alla genovese",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 130.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lessa la pasta in acqua salata e conserva un mestolo d'acqua di cottura.",
+    "Diluisci il pesto in una ciotola con 3-4 cucchiai d'acqua di cottura.",
+    "Scola la pasta, condiscila fuori dal fuoco con il pesto e il parmigiano.",
+    "Aggiungi ancora un po' d'acqua se risulta troppo asciutta."
+   ],
+   "note": "",
+   "wiki": "Pesto alla genovese"
+  },
+  {
+   "id": "pasta-salmone-panna",
+   "title": "Pasta salmone e panna",
+   "course": "primo",
+   "difficulty": "media",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "pesce"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 360.0
+    },
+    {
+     "name": "salmone affumicato",
+     "unit": "g",
+     "aisle": "pesce",
+     "qty": 150.0
+    },
+    {
+     "name": "panna da cucina",
+     "unit": "ml",
+     "aisle": "latticini",
+     "qty": 200.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 20.0
+    },
+    {
+     "name": "pepe",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Rosola la cipolla tritata finemente nel burro a fuoco basso per 5 minuti.",
+    "Aggiungi il salmone a striscioline e cuoci 2 minuti.",
+    "Versa la panna, regola di sale e pepe e fai restringere 5 minuti.",
+    "Condisci la pasta lessata al dente con la salsa e servi."
+   ],
+   "note": "",
+   "wiki": "Pasta al salmone"
+  },
+  {
+   "id": "carbonara",
+   "title": "Pasta alla carbonara",
+   "course": "primo",
+   "difficulty": "media",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🍳",
+   "image": "",
+   "tags": [
+    "carne",
+    "classico"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 360.0
+    },
+    {
+     "name": "guanciale",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 150.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 4.0
+    },
+    {
+     "name": "pecorino romano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 60.0
+    },
+    {
+     "name": "pepe",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia il guanciale a listarelle e rosolalo in padella senza olio finché diventa croccante.",
+    "In una ciotola sbatti le uova con il pecorino e abbondante pepe.",
+    "Lessa la pasta, scolala tenendo un mestolo d'acqua di cottura e versala nella padella del guanciale, a fuoco spento.",
+    "Unisci la crema d'uova mescolando velocemente e allunga con acqua di cottura fino a una crema liscia."
+   ],
+   "note": "",
+   "wiki": "Carbonara"
+  },
+  {
+   "id": "risotto-zafferano",
+   "title": "Risotto allo zafferano",
+   "course": "primo",
+   "difficulty": "media",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🍚",
+   "image": "",
+   "tags": [
+    "vegetariano"
+   ],
+   "ingredients": [
+    {
+     "name": "riso",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 320.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "zafferano",
+     "unit": "pz",
+     "aisle": "dispensa",
+     "qty": 1.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 50.0
+    },
+    {
+     "name": "dado vegetale",
+     "unit": "pz",
+     "aisle": "dispensa",
+     "qty": 1.0
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Prepara un litro di brodo caldo con il dado.",
+    "Soffriggi la cipolla tritata con metà del burro, poi tosta il riso 2 minuti.",
+    "Aggiungi il brodo un mestolo alla volta, mescolando, per circa 16 minuti.",
+    "A fine cottura sciogli lo zafferano in poco brodo e uniscilo al riso.",
+    "Manteca fuori dal fuoco con il burro rimasto e il parmigiano."
+   ],
+   "note": "",
+   "wiki": "Risotto alla milanese"
+  },
+  {
+   "id": "pasta-e-fagioli",
+   "title": "Pasta e fagioli",
+   "course": "primo",
+   "difficulty": "media",
+   "minutes": 45,
+   "servings": 4,
+   "emoji": "🥣",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 200.0
+    },
+    {
+     "name": "fagioli borlotti in scatola",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 480.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 200.0
+    },
+    {
+     "name": "carote",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "sedano",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Soffriggi sedano, carota e cipolla tritati in 3 cucchiai d'olio per 8 minuti.",
+    "Aggiungi la passata e i fagioli sgocciolati, poi copri con acqua calda e cuoci 20 minuti.",
+    "Frulla un paio di mestoli di fagioli e rimettili in pentola per rendere la zuppa cremosa.",
+    "Unisci la pasta e cuocila nella zuppa, aggiungendo acqua se serve."
+   ],
+   "note": "",
+   "wiki": "Pasta e fagioli"
+  },
+  {
+   "id": "minestrone",
+   "title": "Minestrone di verdure",
+   "course": "primo",
+   "difficulty": "media",
+   "minutes": 60,
+   "servings": 4,
+   "emoji": "🥣",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "patate",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 300.0
+    },
+    {
+     "name": "carote",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "zucchine",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "fagiolini",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 150.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "sedano",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "pomodori",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 100.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia tutte le verdure a dadini regolari.",
+    "Soffriggi cipolla e sedano in 3 cucchiai d'olio, poi aggiungi le altre verdure e 1,5 litri d'acqua.",
+    "Sala e cuoci a fuoco dolce per 40 minuti.",
+    "Unisci la pasta, cuoci altri 10 minuti e servi con parmigiano grattugiato."
+   ],
+   "note": "",
+   "wiki": "Minestrone"
+  },
+  {
+   "id": "pasta-al-forno",
+   "title": "Pasta al forno",
+   "course": "primo",
+   "difficulty": "impegnativa",
+   "minutes": 75,
+   "servings": 4,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 400.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 600.0
+    },
+    {
+     "name": "mozzarella",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 250.0
+    },
+    {
+     "name": "prosciutto cotto",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 120.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 60.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Prepara il sugo: soffriggi la cipolla, aggiungi la passata, sala e cuoci 20 minuti con il basilico.",
+    "Lessa la pasta per metà del tempo indicato e scolala.",
+    "Mescola la pasta con il sugo, la mozzarella a dadini, il prosciutto a pezzetti e metà del parmigiano.",
+    "Versa in una pirofila, cospargi con il parmigiano rimasto e inforna a 200°C per 25 minuti.",
+    "Lascia riposare 5 minuti prima di servire."
+   ],
+   "note": "",
+   "wiki": "Pasta al forno"
+  },
+  {
+   "id": "lasagne-ragu",
+   "title": "Lasagne al ragù",
+   "course": "primo",
+   "difficulty": "impegnativa",
+   "minutes": 150,
+   "servings": 6,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "forno",
+    "domenica"
+   ],
+   "ingredients": [
+    {
+     "name": "lasagne all'uovo",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 250.0
+    },
+    {
+     "name": "macinato di manzo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 400.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 700.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "carote",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "sedano",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "latte",
+     "unit": "ml",
+     "aisle": "latticini",
+     "qty": 500.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 50.0
+    },
+    {
+     "name": "farina",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 50.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 80.0
+    },
+    {
+     "name": "noce moscata",
+     "unit": "",
+     "aisle": "condimenti"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Prepara il ragù: soffriggi sedano, carota e cipolla tritati, aggiungi la carne sgranata, poi la passata e cuoci 1 ora e mezza a fuoco basso.",
+    "Per la besciamella sciogli il burro, unisci la farina, poi il latte caldo mescolando fino a densità; sala e profuma di noce moscata.",
+    "In una pirofila alterna besciamella, sfoglie, ragù e parmigiano per almeno 4 strati.",
+    "Finisci con besciamella e parmigiano, poi inforna a 180°C per 35 minuti.",
+    "Fai riposare 10 minuti prima di tagliare."
+   ],
+   "note": "",
+   "wiki": "Lasagne alla bolognese"
+  },
+  {
+   "id": "tagliatelle-ragu",
+   "title": "Tagliatelle al ragù",
+   "course": "primo",
+   "difficulty": "impegnativa",
+   "minutes": 120,
+   "servings": 4,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "carne",
+    "domenica"
+   ],
+   "ingredients": [
+    {
+     "name": "tagliatelle all'uovo",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 400.0
+    },
+    {
+     "name": "macinato di manzo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 400.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 500.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "carote",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "sedano",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "vino rosso",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 100.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Soffriggi sedano, carota e cipolla tritati finemente in 4 cucchiai d'olio.",
+    "Aggiungi la carne e rosolala bene, poi sfuma con il vino rosso.",
+    "Versa la passata, sala e cuoci a fuoco dolce per almeno 1 ora e mezza, aggiungendo acqua se si asciuga.",
+    "Lessa le tagliatelle, condiscile con il ragù e servi con parmigiano."
+   ],
+   "note": "",
+   "wiki": "Tagliatelle al ragù"
+  },
+  {
+   "id": "frittata-zucchine",
+   "title": "Frittata di zucchine",
+   "course": "secondo",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🍳",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 6.0
+    },
+    {
+     "name": "zucchine",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 300.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia le zucchine a rondelle sottili e cuocile in padella con un filo d'olio per 8 minuti.",
+    "Sbatti le uova con il parmigiano e un pizzico di sale.",
+    "Versa le uova sulle zucchine e cuoci a fuoco medio-basso con il coperchio per 6 minuti.",
+    "Gira la frittata con l'aiuto di un piatto e cuoci ancora 3 minuti."
+   ],
+   "note": "",
+   "wiki": "Frittata di zucchine"
+  },
+  {
+   "id": "frittata-patate-cipolle",
+   "title": "Frittata di patate e cipolle",
+   "course": "secondo",
+   "difficulty": "semplice",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🍳",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 6.0
+    },
+    {
+     "name": "patate",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 400.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Sbuccia le patate e tagliale a fettine sottili, affetta la cipolla.",
+    "Cuocile in padella con 3 cucchiai d'olio, coperte, per 15 minuti mescolando ogni tanto.",
+    "Sbatti le uova con il sale e versale sulle patate.",
+    "Cuoci a fuoco basso 6 minuti, gira la frittata e cuoci altri 4 minuti."
+   ],
+   "note": "",
+   "wiki": "Frittata di patate"
+  },
+  {
+   "id": "uova-al-pomodoro",
+   "title": "Uova al pomodoro",
+   "course": "secondo",
+   "difficulty": "semplice",
+   "minutes": 20,
+   "servings": 4,
+   "emoji": "🍅",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 4.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 500.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "pane",
+     "unit": "fette",
+     "aisle": "pasta",
+     "qty": 4.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Soffriggi la cipolla tritata in 2 cucchiai d'olio, aggiungi la passata e sala.",
+    "Cuoci il sugo 10 minuti finché si restringe.",
+    "Rompi le uova nel sugo, una alla volta, copri e cuoci 5 minuti.",
+    "Servi con basilico e fette di pane per la scarpetta."
+   ],
+   "note": "",
+   "wiki": "Uova in purgatorio"
+  },
+  {
+   "id": "salmone-al-forno",
+   "title": "Salmone al forno con limone",
+   "course": "secondo",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🐟",
+   "image": "",
+   "tags": [
+    "pesce",
+    "forno",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "salmone",
+     "unit": "g",
+     "aisle": "pesce",
+     "qty": 600.0
+    },
+    {
+     "name": "limone",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "rosmarino",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "pepe",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 200°C.",
+    "Disponi i tranci di salmone su una teglia con carta forno, condisci con olio, sale e pepe.",
+    "Copri con fettine di limone e rametti di rosmarino.",
+    "Cuoci per 15-18 minuti a seconda dello spessore."
+   ],
+   "note": "",
+   "wiki": "Salmone al forno"
+  },
+  {
+   "id": "pollo-forno-patate",
+   "title": "Pollo al forno con patate",
+   "course": "secondo",
+   "difficulty": "semplice",
+   "minutes": 80,
+   "servings": 4,
+   "emoji": "🍗",
+   "image": "",
+   "tags": [
+    "carne",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "cosce di pollo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 1000.0
+    },
+    {
+     "name": "patate",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 800.0
+    },
+    {
+     "name": "rosmarino",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "pepe",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 200°C.",
+    "Taglia le patate a tocchetti e mettile in una teglia con le cosce, l'aglio, il rosmarino, olio, sale e pepe.",
+    "Mescola bene perché tutto si condisca.",
+    "Cuoci per 60-70 minuti, girando a metà cottura."
+   ],
+   "note": "",
+   "wiki": "Pollo arrosto"
+  },
+  {
+   "id": "scaloppine-limone",
+   "title": "Scaloppine al limone",
+   "course": "secondo",
+   "difficulty": "semplice",
+   "minutes": 20,
+   "servings": 4,
+   "emoji": "🍋",
+   "image": "",
+   "tags": [
+    "carne",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "fettine di vitello",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 500.0
+    },
+    {
+     "name": "farina",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 40.0
+    },
+    {
+     "name": "limone",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Infarina leggermente le fettine, scuotendo l'eccesso.",
+    "Sciogli il burro in padella e rosola le fettine 2 minuti per lato.",
+    "Versa il succo del limone e un po' d'acqua, sala e cuoci 3 minuti finché il sugo si addensa.",
+    "Servi con prezzemolo tritato."
+   ],
+   "note": "",
+   "wiki": "Scaloppina al limone"
+  },
+  {
+   "id": "cotolette-pollo",
+   "title": "Cotolette di pollo",
+   "course": "secondo",
+   "difficulty": "media",
+   "minutes": 30,
+   "servings": 4,
+   "emoji": "🍗",
+   "image": "",
+   "tags": [
+    "carne"
+   ],
+   "ingredients": [
+    {
+     "name": "petto di pollo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 500.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 2.0
+    },
+    {
+     "name": "pangrattato",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 100.0
+    },
+    {
+     "name": "farina",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 40.0
+    },
+    {
+     "name": "limone",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "olio di semi",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Affetta il petto di pollo in fettine sottili e battile leggermente.",
+    "Passale prima nella farina, poi nell'uovo sbattuto con un pizzico di sale e infine nel pangrattato.",
+    "Friggi in olio caldo 3 minuti per lato, poi scola su carta assorbente.",
+    "Servi con spicchi di limone."
+   ],
+   "note": "",
+   "wiki": "Cotoletta alla milanese"
+  },
+  {
+   "id": "fagottini-salmone",
+   "title": "Fagottini di salmone",
+   "course": "secondo",
+   "difficulty": "media",
+   "minutes": 40,
+   "servings": 4,
+   "emoji": "🥟",
+   "image": "",
+   "tags": [
+    "pesce",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta sfoglia",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "salmone",
+     "unit": "g",
+     "aisle": "pesce",
+     "qty": 300.0
+    },
+    {
+     "name": "formaggio spalmabile",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 100.0
+    },
+    {
+     "name": "erba cipollina",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "pepe",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 200°C e taglia il salmone, senza pelle, a cubetti.",
+    "Mescola il salmone con il formaggio spalmabile, l'erba cipollina tritata, sale e pepe.",
+    "Stendi la sfoglia, ritagliala in 8 quadrati, farciscili e chiudili a fagottino.",
+    "Spennella con l'uovo sbattuto e cuoci 20-25 minuti fino a doratura."
+   ],
+   "note": "",
+   "wiki": "Fagottini di salmone"
+  },
+  {
+   "id": "polpette-sugo",
+   "title": "Polpette al sugo",
+   "course": "secondo",
+   "difficulty": "media",
+   "minutes": 50,
+   "servings": 4,
+   "emoji": "🧆",
+   "image": "",
+   "tags": [
+    "carne"
+   ],
+   "ingredients": [
+    {
+     "name": "macinato di manzo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 500.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "pangrattato",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 60.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 500.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Impasta la carne con uovo, pangrattato, parmigiano, prezzemolo e sale.",
+    "Forma polpette grandi come una noce.",
+    "Soffriggi la cipolla, versa la passata, sala e porta a bollore.",
+    "Immergi le polpette nel sugo e cuoci con il coperchio per 25 minuti, senza mescolare troppo."
+   ],
+   "note": "",
+   "wiki": "Polpette al sugo"
+  },
+  {
+   "id": "merluzzo-pomodorini",
+   "title": "Merluzzo al forno con pomodorini",
+   "course": "secondo",
+   "difficulty": "media",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🐟",
+   "image": "",
+   "tags": [
+    "pesce",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "filetti di merluzzo",
+     "unit": "g",
+     "aisle": "pesce",
+     "qty": 600.0
+    },
+    {
+     "name": "pomodorini",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 300.0
+    },
+    {
+     "name": "olive nere",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 50.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 190°C.",
+    "Disponi i filetti in una teglia unta e coprili con i pomodorini a metà, le olive e l'aglio a fettine.",
+    "Condisci con olio e sale.",
+    "Cuoci 20 minuti e finisci con prezzemolo tritato."
+   ],
+   "note": "",
+   "wiki": "Merluzzo al forno"
+  },
+  {
+   "id": "spezzatino-patate",
+   "title": "Spezzatino di manzo con patate",
+   "course": "secondo",
+   "difficulty": "impegnativa",
+   "minutes": 130,
+   "servings": 4,
+   "emoji": "🍲",
+   "image": "",
+   "tags": [
+    "carne",
+    "domenica"
+   ],
+   "ingredients": [
+    {
+     "name": "spezzatino di manzo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 700.0
+    },
+    {
+     "name": "patate",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 500.0
+    },
+    {
+     "name": "carote",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 200.0
+    },
+    {
+     "name": "vino rosso",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 100.0
+    },
+    {
+     "name": "farina",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 30.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Infarina i bocconcini di carne e rosolali in una casseruola con 4 cucchiai d'olio.",
+    "Aggiungi cipolla e carote a pezzetti, poi sfuma con il vino.",
+    "Versa la passata e acqua calda a coprire, sala e cuoci a fuoco dolce con il coperchio per 1 ora e 15 minuti.",
+    "Unisci le patate a tocchetti e cuoci altri 30-35 minuti finché sono tenere."
+   ],
+   "note": "",
+   "wiki": "Spezzatino"
+  },
+  {
+   "id": "polpettone-ripieno",
+   "title": "Polpettone ripieno",
+   "course": "secondo",
+   "difficulty": "impegnativa",
+   "minutes": 90,
+   "servings": 4,
+   "emoji": "🍖",
+   "image": "",
+   "tags": [
+    "carne",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "macinato di manzo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 600.0
+    },
+    {
+     "name": "prosciutto cotto",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 150.0
+    },
+    {
+     "name": "scamorza",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 150.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 2.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 50.0
+    },
+    {
+     "name": "pangrattato",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 80.0
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Impasta la carne con le uova, il parmigiano, metà del pangrattato, il prezzemolo e il sale.",
+    "Stendi l'impasto su carta forno in un rettangolo, copri con prosciutto e scamorza a fette.",
+    "Arrotola aiutandoti con la carta, chiudi bene i lati e passa nel pangrattato rimasto.",
+    "Inforna a 180°C per 50-60 minuti, pennellando con olio a metà cottura.",
+    "Lascia riposare 10 minuti prima di affettare."
+   ],
+   "note": "",
+   "wiki": "Polpettone"
+  },
+  {
+   "id": "torta-spinaci-ricotta",
+   "title": "Torta salata di spinaci e ricotta",
+   "course": "unico",
+   "difficulty": "semplice",
+   "minutes": 50,
+   "servings": 4,
+   "emoji": "🥧",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta sfoglia",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "spinaci",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 500.0
+    },
+    {
+     "name": "ricotta",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 250.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 50.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "noce moscata",
+     "unit": "",
+     "aisle": "condimenti"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 190°C. Cuoci gli spinaci in padella con un filo d'olio finché appassiscono, strizzali e tritali.",
+    "Mescola spinaci, ricotta, parmigiano, uovo, sale e un pizzico di noce moscata.",
+    "Rivesti una tortiera con la sfoglia, versa il ripieno e ripiega i bordi.",
+    "Cuoci 30-35 minuti finché la superficie è dorata."
+   ],
+   "note": "",
+   "wiki": "Torta salata"
+  },
+  {
+   "id": "torta-zucchine-scamorza",
+   "title": "Torta salata di zucchine e scamorza",
+   "course": "unico",
+   "difficulty": "semplice",
+   "minutes": 50,
+   "servings": 4,
+   "emoji": "🥧",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta sfoglia",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "zucchine",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 400.0
+    },
+    {
+     "name": "scamorza",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 150.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 190°C. Soffriggi la cipolla, aggiungi le zucchine a rondelle e cuoci 10 minuti con sale.",
+    "Lascia intiepidire e mescola con l'uovo, il parmigiano e la scamorza a dadini.",
+    "Rivesti una tortiera con la sfoglia e versa il ripieno.",
+    "Cuoci 30 minuti finché la sfoglia è dorata."
+   ],
+   "note": "",
+   "wiki": "Torta salata"
+  },
+  {
+   "id": "insalata-di-riso",
+   "title": "Insalata di riso",
+   "course": "unico",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🥗",
+   "image": "",
+   "tags": [
+    "estate",
+    "freddo"
+   ],
+   "ingredients": [
+    {
+     "name": "riso",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 300.0
+    },
+    {
+     "name": "tonno sott'olio",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 160.0
+    },
+    {
+     "name": "mais in scatola",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 150.0
+    },
+    {
+     "name": "pomodori",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 250.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 2.0
+    },
+    {
+     "name": "olive verdi",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 60.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lessa il riso in acqua salata, scolalo e raffreddalo sotto l'acqua fredda.",
+    "Cuoci le uova per 9 minuti, sgusciale e tagliale a spicchi.",
+    "Taglia i pomodori a dadini e sgocciola tonno e mais.",
+    "Mescola tutto con le olive, condisci con olio e sale e lascia riposare 15 minuti in frigo."
+   ],
+   "note": "",
+   "wiki": "Insalata di riso"
+  },
+  {
+   "id": "piadine-pollo",
+   "title": "Piadine farcite al pollo",
+   "course": "unico",
+   "difficulty": "semplice",
+   "minutes": 20,
+   "servings": 4,
+   "emoji": "🌯",
+   "image": "",
+   "tags": [
+    "veloce",
+    "carne"
+   ],
+   "ingredients": [
+    {
+     "name": "piadine",
+     "unit": "pz",
+     "aisle": "pasta",
+     "qty": 4.0
+    },
+    {
+     "name": "petto di pollo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 300.0
+    },
+    {
+     "name": "insalata",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 100.0
+    },
+    {
+     "name": "pomodori",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "formaggio spalmabile",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 80.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia il pollo a striscioline e cuocilo in padella con un filo d'olio e sale per 8 minuti.",
+    "Scalda le piadine in padella per 1 minuto per lato.",
+    "Spalma il formaggio, aggiungi pollo, insalata e pomodori a fette.",
+    "Chiudi a mezzaluna o arrotola e servi calde."
+   ],
+   "note": "",
+   "wiki": "Piadina romagnola"
+  },
+  {
+   "id": "couscous-verdure-ceci",
+   "title": "Cous cous con verdure e ceci",
+   "course": "unico",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🥘",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "cous cous",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 300.0
+    },
+    {
+     "name": "zucchine",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 250.0
+    },
+    {
+     "name": "peperoni",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "carote",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "ceci in scatola",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 240.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia le verdure a dadini e saltale in padella con 3 cucchiai d'olio per 10 minuti.",
+    "Aggiungi i ceci sgocciolati e sala.",
+    "Versa il cous cous in una ciotola con 300 ml d'acqua bollente salata, copri e lascia 5 minuti.",
+    "Sgrana il cous cous con la forchetta e uniscilo alle verdure."
+   ],
+   "note": "",
+   "wiki": "Cous cous"
+  },
+  {
+   "id": "polenta-salsiccia",
+   "title": "Polenta con salsiccia al sugo",
+   "course": "unico",
+   "difficulty": "media",
+   "minutes": 45,
+   "servings": 4,
+   "emoji": "🍲",
+   "image": "",
+   "tags": [
+    "carne",
+    "inverno"
+   ],
+   "ingredients": [
+    {
+     "name": "farina per polenta istantanea",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 300.0
+    },
+    {
+     "name": "salsiccia",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 500.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 300.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Rosola la cipolla tritata, aggiungi la salsiccia a pezzi e falla colorire.",
+    "Versa la passata, sala e cuoci 25 minuti a fuoco dolce.",
+    "Prepara la polenta con 1,2 litri d'acqua salata seguendo le istruzioni sulla confezione.",
+    "Servi la polenta con il sugo di salsiccia e il parmigiano."
+   ],
+   "note": "",
+   "wiki": "Polenta"
+  },
+  {
+   "id": "quiche-lorraine",
+   "title": "Quiche lorraine",
+   "course": "unico",
+   "difficulty": "media",
+   "minutes": 60,
+   "servings": 4,
+   "emoji": "🥧",
+   "image": "",
+   "tags": [
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta brisée",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "pancetta",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 150.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 3.0
+    },
+    {
+     "name": "panna da cucina",
+     "unit": "ml",
+     "aisle": "latticini",
+     "qty": 200.0
+    },
+    {
+     "name": "emmental",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 100.0
+    },
+    {
+     "name": "pepe",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 190°C e rivesti una teglia con la pasta brisée bucherellandola con una forchetta.",
+    "Rosola la pancetta a cubetti in padella senza olio e distribuiscila sul fondo.",
+    "Sbatti uova, panna, sale e pepe, versa sulla pancetta e aggiungi l'emmental a dadini.",
+    "Cuoci 35 minuti finché il ripieno è dorato e compatto."
+   ],
+   "note": "",
+   "wiki": "Quiche lorraine"
+  },
+  {
+   "id": "riso-cantonese",
+   "title": "Riso alla cantonese",
+   "course": "unico",
+   "difficulty": "media",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🍚",
+   "image": "",
+   "tags": [
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "riso",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 320.0
+    },
+    {
+     "name": "prosciutto cotto",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 120.0
+    },
+    {
+     "name": "piselli surgelati",
+     "unit": "g",
+     "aisle": "surgelati",
+     "qty": 150.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 3.0
+    },
+    {
+     "name": "salsa di soia",
+     "unit": "cucchiai",
+     "aisle": "dispensa",
+     "qty": 3.0
+    },
+    {
+     "name": "olio di semi",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lessa il riso, scolalo e lascialo raffreddare spandendolo su un vassoio.",
+    "Prepara una frittatina con le uova, falla raffreddare e tagliala a striscioline.",
+    "Salta i piselli in padella con olio e il prosciutto a dadini per 5 minuti.",
+    "Unisci il riso e la salsa di soia, salta a fuoco vivo 3 minuti e completa con la frittata."
+   ],
+   "note": "",
+   "wiki": "Riso alla cantonese"
+  },
+  {
+   "id": "hamburger-patate",
+   "title": "Hamburger con patate al forno",
+   "course": "unico",
+   "difficulty": "media",
+   "minutes": 45,
+   "servings": 4,
+   "emoji": "🍔",
+   "image": "",
+   "tags": [
+    "carne",
+    "ragazzi"
+   ],
+   "ingredients": [
+    {
+     "name": "hamburger di manzo",
+     "unit": "pz",
+     "aisle": "carne",
+     "qty": 4.0
+    },
+    {
+     "name": "pane per hamburger",
+     "unit": "pz",
+     "aisle": "pasta",
+     "qty": 4.0
+    },
+    {
+     "name": "patate",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 700.0
+    },
+    {
+     "name": "formaggio a fette",
+     "unit": "fette",
+     "aisle": "latticini",
+     "qty": 4.0
+    },
+    {
+     "name": "insalata",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 80.0
+    },
+    {
+     "name": "pomodori",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia le patate a bastoncini, condiscile con olio e sale e cuocile in forno a 220°C per 30 minuti.",
+    "Cuoci gli hamburger in padella 4 minuti per lato, aggiungendo il formaggio sul finire.",
+    "Scalda i panini tagliati a metà.",
+    "Farcisci con hamburger, insalata e pomodoro, e servi con le patatine."
+   ],
+   "note": "",
+   "wiki": "Hamburger"
+  },
+  {
+   "id": "pizza-fatta-in-casa",
+   "title": "Pizza fatta in casa",
+   "course": "unico",
+   "difficulty": "impegnativa",
+   "minutes": 150,
+   "servings": 4,
+   "emoji": "🍕",
+   "image": "",
+   "tags": [
+    "forno",
+    "lievitati"
+   ],
+   "ingredients": [
+    {
+     "name": "farina",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 500.0
+    },
+    {
+     "name": "lievito di birra fresco",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 10.0
+    },
+    {
+     "name": "acqua",
+     "unit": "ml",
+     "aisle": "condimenti",
+     "qty": 300.0,
+     "staple": true
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 300.0
+    },
+    {
+     "name": "mozzarella",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 300.0
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Sciogli il lievito in acqua tiepida, aggiungi farina, 2 cucchiai d'olio e 2 cucchiaini di sale e impasta 10 minuti.",
+    "Lascia lievitare coperto per circa 2 ore, fino al raddoppio.",
+    "Stendi l'impasto in una teglia unta, condisci con passata, sale e olio e inforna a 220°C per 15 minuti.",
+    "Aggiungi la mozzarella a pezzetti e cuoci altri 8 minuti, poi completa con basilico."
+   ],
+   "note": "",
+   "wiki": "Pizza"
+  },
+  {
+   "id": "parmigiana-melanzane",
+   "title": "Parmigiana di melanzane",
+   "course": "unico",
+   "difficulty": "impegnativa",
+   "minutes": 100,
+   "servings": 4,
+   "emoji": "🍆",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "melanzane",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 1000.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 600.0
+    },
+    {
+     "name": "mozzarella",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 300.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 60.0
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio di semi",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Affetta le melanzane per il lungo, salale e lasciale spurgare 30 minuti; asciugale e friggile finché sono dorate.",
+    "Cuoci la passata con sale e basilico per 15 minuti.",
+    "In una pirofila alterna strati di melanzane, sugo, mozzarella e parmigiano.",
+    "Cuoci in forno a 180°C per 35 minuti e lascia riposare 10 minuti."
+   ],
+   "note": "",
+   "wiki": "Parmigiana di melanzane"
+  },
+  {
+   "id": "sformato-patate-prosciutto",
+   "title": "Sformato di patate e prosciutto",
+   "course": "unico",
+   "difficulty": "impegnativa",
+   "minutes": 90,
+   "servings": 4,
+   "emoji": "🥔",
+   "image": "",
+   "tags": [
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "patate",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 800.0
+    },
+    {
+     "name": "prosciutto cotto",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 150.0
+    },
+    {
+     "name": "mozzarella",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 200.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 2.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 60.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "latte",
+     "unit": "ml",
+     "aisle": "latticini",
+     "qty": 100.0
+    },
+    {
+     "name": "pangrattato",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 30.0
+    },
+    {
+     "name": "noce moscata",
+     "unit": "",
+     "aisle": "condimenti"
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lessa le patate, sbucciale e schiacciale con il latte caldo, metà del burro, uova, parmigiano, sale e noce moscata.",
+    "Imburra una pirofila e spolverala con il pangrattato.",
+    "Distribuisci metà del purè, poi prosciutto e mozzarella a dadini, quindi ricopri con il resto del purè.",
+    "Cospargi con burro a fiocchetti e cuoci a 200°C per 30 minuti finché è dorato."
+   ],
+   "note": "",
+   "wiki": "Gattò di patate"
+  },
+  {
+   "id": "pure-di-patate",
+   "title": "Purè di patate",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🥔",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "classico"
+   ],
+   "ingredients": [
+    {
+     "name": "patate",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 1000.0
+    },
+    {
+     "name": "latte",
+     "unit": "ml",
+     "aisle": "latticini",
+     "qty": 150.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "noce moscata",
+     "unit": "",
+     "aisle": "condimenti"
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lessa le patate con la buccia in acqua salata per 30 minuti, poi sbucciale ancora calde.",
+    "Schiacciale con lo schiacciapatate.",
+    "Aggiungi burro, latte caldo, parmigiano, sale e noce moscata.",
+    "Mescola con energia fino a un purè liscio e spumoso."
+   ],
+   "note": "",
+   "wiki": "Purè di patate"
+  },
+  {
+   "id": "patate-al-forno",
+   "title": "Patate al forno",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 55,
+   "servings": 4,
+   "emoji": "🥔",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "patate",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 1000.0
+    },
+    {
+     "name": "rosmarino",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 200°C.",
+    "Taglia le patate a tocchetti e mettile in una teglia con aglio, rosmarino, olio e sale.",
+    "Mescola bene e cuoci 45-50 minuti, girandole a metà cottura."
+   ],
+   "note": "",
+   "wiki": "Patate al forno"
+  },
+  {
+   "id": "insalata-mista",
+   "title": "Insalata mista",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 10,
+   "servings": 4,
+   "emoji": "🥗",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce",
+    "freddo"
+   ],
+   "ingredients": [
+    {
+     "name": "insalata",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 200.0
+    },
+    {
+     "name": "pomodori",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "carote",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "aceto",
+     "unit": "",
+     "aisle": "condimenti"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lava e asciuga l'insalata.",
+    "Taglia i pomodori a spicchi e grattugia la carota.",
+    "Condisci al momento di servire con olio, aceto e sale."
+   ],
+   "note": "",
+   "wiki": "Insalata"
+  },
+  {
+   "id": "zucchine-trifolate",
+   "title": "Zucchine trifolate",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 20,
+   "servings": 4,
+   "emoji": "🥒",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "zucchine",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 600.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia le zucchine a rondelle o a bastoncini.",
+    "Scalda l'olio con l'aglio e cuoci le zucchine a fuoco vivace per 10-12 minuti.",
+    "Sala, togli l'aglio e completa con prezzemolo tritato."
+   ],
+   "note": "",
+   "wiki": "Zucchina"
+  },
+  {
+   "id": "spinaci-burro-parmigiano",
+   "title": "Spinaci al burro e parmigiano",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 15,
+   "servings": 4,
+   "emoji": "🥬",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "spinaci",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 600.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 20.0
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lava gli spinaci e cuocili con l'acqua rimasta sulle foglie per 4 minuti.",
+    "Scolali, strizzali bene e saltali in padella con il burro.",
+    "Sala e servi con una spolverata di parmigiano."
+   ],
+   "note": "",
+   "wiki": "Spinaci"
+  },
+  {
+   "id": "broccoli-ripassati",
+   "title": "Broccoli ripassati",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🥦",
+   "image": "",
+   "tags": [
+    "vegetariano"
+   ],
+   "ingredients": [
+    {
+     "name": "broccoli",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 700.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "peperoncino",
+     "unit": "",
+     "aisle": "condimenti"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Dividi i broccoli in cimette e lessali 6-7 minuti in acqua salata.",
+    "Scalda l'olio con l'aglio e il peperoncino, poi aggiungi i broccoli scolati.",
+    "Ripassa in padella per 5 minuti schiacciandoli leggermente."
+   ],
+   "note": "",
+   "wiki": "Broccoli"
+  },
+  {
+   "id": "fagiolini-pomodoro",
+   "title": "Fagiolini al pomodoro",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 30,
+   "servings": 4,
+   "emoji": "🫘",
+   "image": "",
+   "tags": [
+    "vegetariano"
+   ],
+   "ingredients": [
+    {
+     "name": "fagiolini",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 500.0
+    },
+    {
+     "name": "pomodorini",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 200.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Pulisci i fagiolini e lessali 10 minuti in acqua salata.",
+    "Soffriggi l'aglio nell'olio, aggiungi i pomodorini tagliati e cuoci 5 minuti.",
+    "Unisci i fagiolini e cuoci altri 8 minuti. Completa con basilico."
+   ],
+   "note": "",
+   "wiki": "Fagiolino"
+  },
+  {
+   "id": "peperoni-in-padella",
+   "title": "Peperoni in padella",
+   "course": "contorno",
+   "difficulty": "media",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🫑",
+   "image": "",
+   "tags": [
+    "vegetariano"
+   ],
+   "ingredients": [
+    {
+     "name": "peperoni",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 3.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "olive nere",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 30.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Pulisci i peperoni e tagliali a falde.",
+    "Fai appassire la cipolla a fettine nell'olio, poi unisci i peperoni.",
+    "Cuoci coperto 20 minuti mescolando ogni tanto, aggiungi olive e sale e cuoci altri 5 minuti."
+   ],
+   "note": "",
+   "wiki": "Peperonata"
+  },
+  {
+   "id": "melanzane-a-funghetto",
+   "title": "Melanzane a funghetto",
+   "course": "contorno",
+   "difficulty": "media",
+   "minutes": 40,
+   "servings": 4,
+   "emoji": "🍆",
+   "image": "",
+   "tags": [
+    "vegetariano"
+   ],
+   "ingredients": [
+    {
+     "name": "melanzane",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 600.0
+    },
+    {
+     "name": "pomodorini",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 250.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia le melanzane a cubetti e lasciale con un po' di sale per 20 minuti, poi asciugale.",
+    "Rosolale in padella con olio e aglio a fuoco vivace per 10 minuti.",
+    "Aggiungi i pomodorini tagliati e cuoci altri 10 minuti. Termina con basilico."
+   ],
+   "note": "",
+   "wiki": "Melanzana"
+  },
+  {
+   "id": "verdure-miste-forno",
+   "title": "Verdure miste al forno",
+   "course": "contorno",
+   "difficulty": "media",
+   "minutes": 50,
+   "servings": 4,
+   "emoji": "🍆",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "zucchine",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 300.0
+    },
+    {
+     "name": "peperoni",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "melanzane",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 300.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "rosmarino",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 200°C.",
+    "Taglia tutte le verdure a pezzi regolari e mettile in una teglia.",
+    "Condisci con olio, sale e rosmarino e mescola bene.",
+    "Cuoci 35-40 minuti girando a metà cottura."
+   ],
+   "note": "",
+   "wiki": "Verdure al forno"
+  },
+  {
+   "id": "pomodori-gratinati",
+   "title": "Pomodori gratinati",
+   "course": "contorno",
+   "difficulty": "media",
+   "minutes": 40,
+   "servings": 4,
+   "emoji": "🍅",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "pomodori",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 6.0
+    },
+    {
+     "name": "pangrattato",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 60.0
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 20.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda il forno a 190°C. Taglia i pomodori a metà e svuotali leggermente dei semi.",
+    "Mescola pangrattato, prezzemolo e aglio tritati, parmigiano, sale e 3 cucchiai d'olio.",
+    "Riempi i pomodori con il composto e disponili in una teglia.",
+    "Cuoci 25 minuti fino a gratinatura dorata."
+   ],
+   "note": "",
+   "wiki": "Pomodori gratinati"
+  },
+  {
+   "id": "cavolfiore-gratinato",
+   "title": "Cavolfiore gratinato",
+   "course": "contorno",
+   "difficulty": "impegnativa",
+   "minutes": 60,
+   "servings": 4,
+   "emoji": "🥦",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "cavolfiore",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 1000.0
+    },
+    {
+     "name": "latte",
+     "unit": "ml",
+     "aisle": "latticini",
+     "qty": 400.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "farina",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 40.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 60.0
+    },
+    {
+     "name": "noce moscata",
+     "unit": "",
+     "aisle": "condimenti"
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Dividi il cavolfiore in cimette e lessalo 8 minuti in acqua salata; scolalo.",
+    "Prepara la besciamella: sciogli il burro, unisci la farina, poi il latte caldo mescolando fino a densità. Sala e profuma con noce moscata.",
+    "Disponi il cavolfiore in una pirofila, copri con la besciamella e cospargi di parmigiano.",
+    "Gratina in forno a 200°C per 20 minuti."
+   ],
+   "note": "",
+   "wiki": "Cavolfiore"
+  }
+ ]
+}
