@@ -64,6 +64,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.iocucino.app.data.Meal
 import com.iocucino.app.data.Recipe
+import com.iocucino.app.data.Season
+import com.iocucino.app.data.SeasonStatus
 import com.iocucino.app.data.cap
 import com.iocucino.app.data.dayLabelRelative
 import com.iocucino.app.data.keyOf
@@ -209,6 +211,9 @@ private fun RecipeDetailContent(vm: MainViewModel, recipe: Recipe, onBack: () ->
                                 )
                             }
                             item { DifficultyTag(recipe.difficulty) }
+                            if (Season.status(recipe) == SeasonStatus.IN) {
+                                item { Pill("🌿 Di stagione", container = Pal.Mint, content = Pal.MintText) }
+                            }
                             item { Pill("${recipe.minutes} min", icon = Icons.Outlined.Timer) }
                             items(recipe.tags) { t -> Pill(t) }
                         }

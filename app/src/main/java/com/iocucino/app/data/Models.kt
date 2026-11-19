@@ -90,7 +90,9 @@ data class Recipe(
     /** Parole da cercare su Wikipedia per trovare una foto del piatto. */
     val wiki: String = "",
     /** Chi ha fornito la foto (vuoto se e' quella dell'utente o non c'e'). */
-    val photoCredit: String = ""
+    val photoCredit: String = "",
+    /** Mesi (1-12) in cui la ricetta e' di stagione, se il catalogo li indica. Vuoto = calcolati dagli ingredienti. */
+    val months: List<Int> = emptyList()
 )
 
 data class PantryItem(
@@ -116,8 +118,11 @@ data class PlanEntry(
     /** Data in formato ISO (aaaa-mm-gg). */
     val date: String,
     val meal: Meal,
+    /** Vuoto se il piatto e' libero (scritto dall'utente, senza ricetta). */
     val recipeId: String,
-    val servings: Int
+    val servings: Int,
+    /** Nome del piatto libero, ad esempio "Pizza fatta in casa". */
+    val custom: String = ""
 )
 
 data class AppSettings(

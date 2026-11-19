@@ -55,6 +55,8 @@ import coil.compose.AsyncImage
 import com.iocucino.app.data.Course
 import com.iocucino.app.data.Difficulty
 import com.iocucino.app.data.Recipe
+import com.iocucino.app.data.Season
+import com.iocucino.app.data.SeasonStatus
 import com.iocucino.app.data.keyOf
 import com.iocucino.app.ui.MainViewModel
 import com.iocucino.app.ui.components.AppButton
@@ -112,6 +114,7 @@ private fun RecipeBrowser(
     var diff by rememberSaveable { mutableStateOf<Difficulty?>(null) }
     var maxMinutes by rememberSaveable { mutableStateOf<Int?>(null) }
     var onlyFav by rememberSaveable { mutableStateOf(false) }
+    var onlySeason by rememberSaveable { mutableStateOf(false) }
     var heroSeed by rememberSaveable { mutableStateOf(0) }
 
     // Per ogni ricetta: quanti ingredienti (esclusi sale, olio...) ci sono gia' in dispensa.
@@ -123,9 +126,13 @@ private fun RecipeBrowser(
         }
     }
 
-    val filtered = remember(recipes, query, course, diff, maxMinutes, onlyFav, favs, pantryMode, coverage) {
+    val month = remember { LocalDate.now().monthValue }
+    val seasonOf = remember(recipes) { recipes.associate { it.id to Season.status(it, month) } }
+
+    val filtered = remember(recipes, query, course, diff, maxMinutes, onlyFav, onlySeason, favs, pantryMode, coverage) {
         val base = recipes.filter { r ->
-            (course == null || r.course == course) &&
+            (!onlySeason || seasonOf[r.id] == SeasonStatus.IN) &&
+                (course == null || r.course == course) &&
                 (diff == null || r.difficulty == diff) &&
                 (maxMinutes?.let { r.minutes <= it } ?: true) &&
                 (!onlyFav || r.id in favs) &&
@@ -277,11 +284,28 @@ private fun RecipeBrowser(
                         }
                     }
                     Spacer(Modifier.height(12.dp))
-                    AppChip(
-                        selected = onlyFav,
-                        onClick = { onlyFav = !onlyFav },
-                        label = "Solo preferite",
-                        icon = Icons.Filled.Favorite
+                    Row(
+                        modifier = Modifier.horizontalScroll(rememberScrollState()),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        AppChip(
+                            selected = onlySeason,
+                            onClick = { onlySeason = !onlySeason },
+                            label = "🌿 Di stagione"
+                        )
+                        AppChip(
+                            selected = onlyFav,
+                            onClick = { onlyFav = !onlyFav },
+                            label = "Solo preferite",
+                            icon = Icons.Filled.Favorite
+                        )
+                    }
+                    Spacer(Modifier.height(8.dp))
+                    Text(
+                        "A ${Season.monthName(month)} in stagione: " +
+                            Season.inSeason(month).take(10).joinToString(", ") + ".",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = Pal.InkSoft
                     )
                 }
                 Spacer(Modifier.height(12.dp))
@@ -309,7 +333,8 @@ private fun RecipeBrowser(
                 recipe = r,
                 favorite = r.id in favs,
                 coverage = if (pantryMode) coverage[r.id] else null,
-                onClick = { onOpen(r.id) }
+                onClick = { onOpen(r.id) },
+                seasonal = seasonOf[r.id] == SeasonStatus.IN
             )
         }
 

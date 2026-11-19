@@ -48,7 +48,10 @@ private fun parseRecipe(o: JSONObject): Recipe {
         ingredients = ingredients,
         steps = steps,
         note = o.optString("note", ""),
-        wiki = o.optString("wiki", "")
+        wiki = o.optString("wiki", ""),
+        months = o.optJSONArray("months")?.let { a ->
+            (0 until a.length()).map { a.optInt(it) }.filter { it in 1..12 }
+        } ?: emptyList()
     )
 }
 
@@ -82,12 +85,13 @@ fun JSONObject.toShoppingItem() = ShoppingItem(
 
 fun PlanEntry.toJson(): JSONObject = JSONObject()
     .put("id", id).put("date", date).put("meal", meal.name)
-    .put("recipeId", recipeId).put("servings", servings)
+    .put("recipeId", recipeId).put("servings", servings).put("custom", custom)
 
 fun JSONObject.toPlanEntry() = PlanEntry(
     id = getString("id"),
     date = getString("date"),
     meal = Meal.from(optString("meal", "")),
-    recipeId = getString("recipeId"),
-    servings = optInt("servings", 4)
+    recipeId = optString("recipeId", ""),
+    servings = optInt("servings", 4),
+    custom = optString("custom", "")
 )

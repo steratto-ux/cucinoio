@@ -62,7 +62,7 @@ private fun NavController.goToTab(route: String) {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AppRoot(vm: MainViewModel) {
+fun AppRoot(vm: MainViewModel, startRoute: String = "recipes") {
     val nav = rememberNavController()
     val backStack by nav.currentBackStackEntryAsState()
     val route = backStack?.destination?.route
@@ -96,7 +96,7 @@ fun AppRoot(vm: MainViewModel) {
     ) { pad ->
         NavHost(
             navController = nav,
-            startDestination = "recipes",
+            startDestination = startRoute,
             modifier = Modifier.padding(pad)
         ) {
             composable("recipes") {

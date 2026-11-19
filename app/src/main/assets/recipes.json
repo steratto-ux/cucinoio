@@ -3273,6 +3273,1319 @@
    ],
    "note": "",
    "wiki": "Cavolfiore"
+  },
+  {
+   "id": "risotto-zucca",
+   "title": "Risotto alla zucca",
+   "course": "primo",
+   "difficulty": "media",
+   "minutes": 40,
+   "servings": 4,
+   "emoji": "🎃",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "autunno",
+    "inverno"
+   ],
+   "ingredients": [
+    {
+     "name": "riso",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 320.0
+    },
+    {
+     "name": "zucca",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 500.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "dado vegetale",
+     "unit": "pz",
+     "aisle": "dispensa",
+     "qty": 1.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Pulisci la zucca e tagliala a cubetti piccoli. Prepara un litro di brodo con il dado.",
+    "Soffriggi la cipolla tritata in olio, aggiungi la zucca e cuoci 5 minuti.",
+    "Versa il riso e tostalo un minuto, poi aggiungi il brodo caldo un mestolo alla volta per circa 16 minuti, mescolando.",
+    "A fuoco spento manteca con burro e parmigiano e lascia riposare un minuto prima di servire."
+   ],
+   "note": "Se vuoi un risotto più cremoso schiaccia metà dei cubetti di zucca con la forchetta.",
+   "wiki": "Risotto alla zucca"
+  },
+  {
+   "id": "vellutata-zucca",
+   "title": "Vellutata di zucca",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🎃",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "autunno",
+    "inverno",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "zucca",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 700.0
+    },
+    {
+     "name": "patate",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "dado vegetale",
+     "unit": "pz",
+     "aisle": "dispensa",
+     "qty": 1.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "pepe",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Sbuccia zucca e patata e tagliale a pezzi. Trita la cipolla e falla appassire in 2 cucchiai d'olio.",
+    "Aggiungi zucca e patata, copri appena con acqua calda e il dado e cuoci 25 minuti.",
+    "Frulla tutto con il frullatore a immersione fino a una crema liscia.",
+    "Aggiusta di sale, servi con un filo d'olio e una macinata di pepe."
+   ],
+   "note": "",
+   "wiki": "Zucca"
+  },
+  {
+   "id": "pasta-broccoli",
+   "title": "Pasta con i broccoli",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🥦",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "inverno",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 360.0
+    },
+    {
+     "name": "broccoli",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 500.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "peperoncino",
+     "unit": "",
+     "aisle": "condimenti"
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Dividi i broccoli in cimette e lessali nell'acqua salata per 5 minuti.",
+    "Nella stessa acqua cuoci la pasta, scolandola al dente.",
+    "In padella scalda l'olio con aglio e peperoncino, aggiungi i broccoli e schiacciali un poco.",
+    "Salta la pasta nella padella con un mestolo d'acqua di cottura e completa con il parmigiano."
+   ],
+   "note": "",
+   "wiki": "Broccolo"
+  },
+  {
+   "id": "pasta-cavolfiore",
+   "title": "Pasta con il cavolfiore",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 30,
+   "servings": 4,
+   "emoji": "🥦",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "inverno",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 360.0
+    },
+    {
+     "name": "cavolfiore",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 600.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "pecorino romano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "pepe",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia il cavolfiore a cimette e cuocilo nell'acqua salata per 8 minuti.",
+    "Con la schiumarola trasferiscilo in una padella con olio e aglio e schiaccialo a crema grossolana.",
+    "Lessa la pasta nella stessa acqua e scolala al dente.",
+    "Mescola la pasta al cavolfiore con un po' d'acqua di cottura, pecorino e pepe."
+   ],
+   "note": "",
+   "wiki": "Cavolfiore"
+  },
+  {
+   "id": "pasta-e-patate",
+   "title": "Pasta e patate",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🥔",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "inverno",
+    "economico",
+    "classico"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 250.0
+    },
+    {
+     "name": "patate",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 500.0
+    },
+    {
+     "name": "carote",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "sedano",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Trita cipolla, carota e sedano e falli appassire in 3 cucchiai d'olio.",
+    "Aggiungi le patate a cubetti, copri d'acqua calda e cuoci 15 minuti.",
+    "Unisci la pasta corta direttamente nella pentola e cuoci finché è al dente, mescolando spesso.",
+    "Servi con una spolverata di parmigiano."
+   ],
+   "note": "",
+   "wiki": "Pasta e patate"
+  },
+  {
+   "id": "pasta-e-ceci",
+   "title": "Pasta e ceci",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 30,
+   "servings": 4,
+   "emoji": "🫘",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "inverno",
+    "economico",
+    "classico"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 250.0
+    },
+    {
+     "name": "ceci in scatola",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 400.0
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 150.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "rosmarino",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Scalda l'olio con l'aglio e un rametto di rosmarino, poi aggiungi la passata.",
+    "Unisci i ceci sgocciolati, metà schiacciati con la forchetta, e un bicchiere d'acqua; cuoci 10 minuti.",
+    "Aggiungi la pasta corta e altra acqua calda, mescolando fino a cottura.",
+    "Togli aglio e rosmarino e servi con un filo d'olio."
+   ],
+   "note": "",
+   "wiki": "Pasta e ceci"
+  },
+  {
+   "id": "zuppa-lenticchie",
+   "title": "Zuppa di lenticchie",
+   "course": "unico",
+   "difficulty": "semplice",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🍲",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "inverno",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "lenticchie in scatola",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 480.0
+    },
+    {
+     "name": "carote",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "sedano",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 200.0
+    },
+    {
+     "name": "dado vegetale",
+     "unit": "pz",
+     "aisle": "dispensa",
+     "qty": 1.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Trita finemente cipolla, carota e sedano e falli rosolare in olio per 5 minuti.",
+    "Aggiungi la passata, le lenticchie sgocciolate e mezzo litro di brodo fatto con il dado.",
+    "Cuoci 20 minuti a fuoco dolce, finché la zuppa si addensa.",
+    "Servi calda con crostini di pane, se ti piace."
+   ],
+   "note": "",
+   "wiki": "Lenticchia"
+  },
+  {
+   "id": "gnocchi-burro-salvia",
+   "title": "Gnocchi burro e salvia",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 15,
+   "servings": 4,
+   "emoji": "🥟",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "gnocchi di patate",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 800.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 60.0
+    },
+    {
+     "name": "salvia",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Porta a bollore abbondante acqua salata.",
+    "Sciogli il burro in padella con le foglie di salvia a fuoco dolce senza farlo scurire.",
+    "Lessa gli gnocchi: quando vengono a galla scolali con la schiumarola.",
+    "Saltali nella padella con il burro alla salvia e servi con parmigiano."
+   ],
+   "note": "",
+   "wiki": "Gnocchi"
+  },
+  {
+   "id": "finocchi-gratinati",
+   "title": "Finocchi gratinati",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 40,
+   "servings": 4,
+   "emoji": "🌿",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "inverno",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "finocchi",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 3.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "pangrattato",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 30.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 20.0
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Pulisci i finocchi e tagliali a spicchi. Lessali per 10 minuti in acqua salata e scolali bene.",
+    "Disponili in una teglia, copri con parmigiano e pangrattato e qualche fiocco di burro.",
+    "Cuoci in forno a 200 °C per 20 minuti, finché la superficie è dorata."
+   ],
+   "note": "",
+   "wiki": "Finocchio"
+  },
+  {
+   "id": "verza-salsiccia",
+   "title": "Verza e salsiccia in padella",
+   "course": "secondo",
+   "difficulty": "media",
+   "minutes": 45,
+   "servings": 4,
+   "emoji": "🥬",
+   "image": "",
+   "tags": [
+    "carne",
+    "inverno"
+   ],
+   "ingredients": [
+    {
+     "name": "verza",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 600.0
+    },
+    {
+     "name": "salsiccia",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 400.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "vino rosso",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 100.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia la verza a strisce sottili e lavala. Affetta la cipolla.",
+    "Rosola la salsiccia a pezzi in olio, poi sfuma con il vino rosso.",
+    "Aggiungi cipolla e verza, sala e cuoci a coperchio chiuso per 30 minuti, mescolando ogni tanto.",
+    "Servi ben caldo, magari con polenta o pane."
+   ],
+   "note": "",
+   "wiki": "Verza"
+  },
+  {
+   "id": "carote-al-burro",
+   "title": "Carote al burro e prezzemolo",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🥕",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce",
+    "economico"
+   ],
+   "ingredients": [
+    {
+     "name": "carote",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 600.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 20.0
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Pela le carote e tagliale a rondelle o a bastoncini.",
+    "Cuocile in padella con il burro, un po' d'acqua e un pizzico di sale per 15 minuti a coperchio chiuso.",
+    "Quando sono tenere fai asciugare il fondo e completa con prezzemolo tritato."
+   ],
+   "note": "",
+   "wiki": "Carota"
+  },
+  {
+   "id": "zucca-al-forno",
+   "title": "Zucca al forno",
+   "course": "contorno",
+   "difficulty": "semplice",
+   "minutes": 40,
+   "servings": 4,
+   "emoji": "🎃",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "autunno",
+    "inverno",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "zucca",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 800.0
+    },
+    {
+     "name": "rosmarino",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "pepe",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia la zucca a spicchi o a fette spesse senza sbucciarla se la buccia è sottile.",
+    "Disponila in teglia con olio, sale, pepe, aglio e rosmarino.",
+    "Cuoci in forno a 200 °C per 30 minuti, girando a metà cottura."
+   ],
+   "note": "",
+   "wiki": "Zucca"
+  },
+  {
+   "id": "torta-salata-zucca",
+   "title": "Torta salata zucca e scamorza",
+   "course": "unico",
+   "difficulty": "media",
+   "minutes": 55,
+   "servings": 4,
+   "emoji": "🥧",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "autunno",
+    "inverno",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta sfoglia",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "zucca",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 500.0
+    },
+    {
+     "name": "scamorza",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 150.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Cuoci in padella la cipolla affettata con la zucca a dadini e un po' d'acqua per 15 minuti, finché è morbida.",
+    "Stendi la sfoglia in una teglia con la sua carta, riempi con la zucca e la scamorza a dadini, spolverizza di parmigiano.",
+    "Cuoci in forno a 190 °C per 30 minuti, finché è dorata."
+   ],
+   "note": "",
+   "wiki": "Torta salata"
+  },
+  {
+   "id": "frittata-spinaci",
+   "title": "Frittata di spinaci",
+   "course": "secondo",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🍳",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "veloce",
+    "inverno"
+   ],
+   "ingredients": [
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 6.0
+    },
+    {
+     "name": "spinaci",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 400.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lessa gli spinaci pochi minuti, scolali, strizzali e tritali grossolanamente.",
+    "Sbatti le uova con sale e parmigiano e unisci gli spinaci.",
+    "Versa in una padella con olio caldo, cuoci coperto 7 minuti, gira la frittata e cuoci altri 4 minuti."
+   ],
+   "note": "",
+   "wiki": "Frittata"
+  },
+  {
+   "id": "risotto-asparagi",
+   "title": "Risotto agli asparagi",
+   "course": "primo",
+   "difficulty": "media",
+   "minutes": 40,
+   "servings": 4,
+   "emoji": "🌱",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "primavera"
+   ],
+   "ingredients": [
+    {
+     "name": "riso",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 320.0
+    },
+    {
+     "name": "asparagi",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 400.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "dado vegetale",
+     "unit": "pz",
+     "aisle": "dispensa",
+     "qty": 1.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Elimina la parte dura dei gambi e tagliali a rondelle, tenendo le punte da parte. Prepara il brodo con il dado.",
+    "Soffriggi la cipolla in olio, aggiungi i gambi e cuoci 5 minuti, poi unisci il riso e tostalo.",
+    "Bagna con il brodo caldo poco alla volta e dopo 8 minuti aggiungi le punte; cuoci per circa 16 minuti in tutto.",
+    "Manteca con burro e parmigiano e lascia riposare un minuto."
+   ],
+   "note": "",
+   "wiki": "Risotto"
+  },
+  {
+   "id": "asparagi-uova",
+   "title": "Asparagi con uova al tegamino",
+   "course": "secondo",
+   "difficulty": "semplice",
+   "minutes": 25,
+   "servings": 4,
+   "emoji": "🌱",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "primavera",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "asparagi",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 600.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 4.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 30.0
+    },
+    {
+     "name": "burro",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 20.0
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lega gli asparagi in mazzetto e lessali in piedi in acqua salata per 10 minuti, poi scolali.",
+    "Friggi le uova al tegamino nel burro lasciando il tuorlo morbido.",
+    "Servi gli asparagi con l'uovo sopra e il parmigiano a scaglie."
+   ],
+   "note": "",
+   "wiki": "Asparago"
+  },
+  {
+   "id": "carciofi-trifolati",
+   "title": "Carciofi trifolati",
+   "course": "contorno",
+   "difficulty": "media",
+   "minutes": 35,
+   "servings": 4,
+   "emoji": "🌿",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "primavera"
+   ],
+   "ingredients": [
+    {
+     "name": "carciofi",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 6.0
+    },
+    {
+     "name": "aglio",
+     "unit": "spicchi",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "prezzemolo",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "limone",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 1.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Elimina le foglie dure dei carciofi, tagliali a spicchi sottili e tienili in acqua e succo di limone.",
+    "Scalda l'olio con l'aglio, aggiungi i carciofi scolati e cuoci 15 minuti con un po' d'acqua, a coperchio chiuso.",
+    "Salali, togli l'aglio e completa con prezzemolo tritato."
+   ],
+   "note": "",
+   "wiki": "Carciofo"
+  },
+  {
+   "id": "insalata-caprese",
+   "title": "Insalata caprese",
+   "course": "unico",
+   "difficulty": "semplice",
+   "minutes": 10,
+   "servings": 4,
+   "emoji": "🍅",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "estate",
+    "veloce",
+    "freddo"
+   ],
+   "ingredients": [
+    {
+     "name": "pomodori",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 600.0
+    },
+    {
+     "name": "mozzarella",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 300.0
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Affetta pomodori e mozzarella e alternali su un piatto da portata.",
+    "Condisci con olio, sale e foglie di basilico spezzettate a mano.",
+    "Lascia riposare 10 minuti prima di servire con pane fresco."
+   ],
+   "note": "",
+   "wiki": "Insalata caprese"
+  },
+  {
+   "id": "pasta-fredda-pomodorini",
+   "title": "Pasta fredda pomodorini e mozzarella",
+   "course": "primo",
+   "difficulty": "semplice",
+   "minutes": 20,
+   "servings": 4,
+   "emoji": "🍝",
+   "image": "",
+   "tags": [
+    "vegetariano",
+    "estate",
+    "freddo",
+    "veloce"
+   ],
+   "ingredients": [
+    {
+     "name": "pasta",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 320.0
+    },
+    {
+     "name": "pomodorini",
+     "unit": "g",
+     "aisle": "verdura",
+     "qty": 300.0
+    },
+    {
+     "name": "mozzarella",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 200.0
+    },
+    {
+     "name": "olive nere",
+     "unit": "g",
+     "aisle": "dispensa",
+     "qty": 60.0
+    },
+    {
+     "name": "basilico",
+     "unit": "",
+     "aisle": "verdura"
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Lessa la pasta corta al dente, scolala e raffreddala sotto l'acqua fredda.",
+    "Taglia pomodorini e mozzarella a pezzetti e unisci le olive.",
+    "Condisci la pasta con olio, sale e basilico e mescola tutto; tienila in frigo fino al momento di servire."
+   ],
+   "note": "",
+   "wiki": "Pasta fredda"
+  },
+  {
+   "id": "zucchine-ripiene",
+   "title": "Zucchine ripiene di carne",
+   "course": "secondo",
+   "difficulty": "media",
+   "minutes": 50,
+   "servings": 4,
+   "emoji": "🥒",
+   "image": "",
+   "tags": [
+    "carne",
+    "estate",
+    "forno"
+   ],
+   "ingredients": [
+    {
+     "name": "zucchine",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 4.0
+    },
+    {
+     "name": "macinato di manzo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 300.0
+    },
+    {
+     "name": "uova",
+     "unit": "pz",
+     "aisle": "latticini",
+     "qty": 1.0
+    },
+    {
+     "name": "parmigiano",
+     "unit": "g",
+     "aisle": "latticini",
+     "qty": 40.0
+    },
+    {
+     "name": "pangrattato",
+     "unit": "g",
+     "aisle": "pasta",
+     "qty": 40.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia le zucchine a metà nel senso della lunghezza e scava la polpa con un cucchiaino.",
+    "Mescola la carne con la polpa tritata, l'uovo, il parmigiano, il pangrattato e un pizzico di sale.",
+    "Riempi le zucchine, mettile in teglia con un filo d'olio e cuoci in forno a 200 °C per 35 minuti."
+   ],
+   "note": "",
+   "wiki": "Zucchina"
+  },
+  {
+   "id": "pollo-ai-peperoni",
+   "title": "Pollo ai peperoni",
+   "course": "secondo",
+   "difficulty": "media",
+   "minutes": 40,
+   "servings": 4,
+   "emoji": "🍗",
+   "image": "",
+   "tags": [
+    "carne",
+    "estate"
+   ],
+   "ingredients": [
+    {
+     "name": "petto di pollo",
+     "unit": "g",
+     "aisle": "carne",
+     "qty": 600.0
+    },
+    {
+     "name": "peperoni",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 2.0
+    },
+    {
+     "name": "cipolla",
+     "unit": "pz",
+     "aisle": "verdura",
+     "qty": 0.5
+    },
+    {
+     "name": "passata di pomodoro",
+     "unit": "ml",
+     "aisle": "dispensa",
+     "qty": 150.0
+    },
+    {
+     "name": "olio evo",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    },
+    {
+     "name": "sale",
+     "unit": "",
+     "aisle": "condimenti",
+     "staple": true
+    }
+   ],
+   "steps": [
+    "Taglia il pollo a bocconcini e i peperoni a listarelle, affetta la cipolla.",
+    "Rosola il pollo in olio per 5 minuti e mettilo da parte.",
+    "Nella stessa padella cuoci cipolla e peperoni 10 minuti, poi unisci la passata e il pollo.",
+    "Cuoci altri 15 minuti a fuoco dolce, aggiusta di sale e servi."
+   ],
+   "note": "",
+   "wiki": "Peperone"
   }
  ]
 }

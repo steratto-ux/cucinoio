@@ -10,13 +10,20 @@ import com.iocucino.app.ui.MainViewModel
 import com.iocucino.app.ui.theme.IoCucinoTheme
 
 class MainActivity : ComponentActivity() {
+
+    companion object {
+        /** Schermata da aprire all'avvio (usata dal widget). */
+        const val EXTRA_START = "start"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        val start = intent?.getStringExtra(EXTRA_START)
         setContent {
             IoCucinoTheme {
                 val vm: MainViewModel = viewModel()
-                AppRoot(vm)
+                AppRoot(vm, startRoute = if (start == "planner") "planner" else "recipes")
             }
         }
     }

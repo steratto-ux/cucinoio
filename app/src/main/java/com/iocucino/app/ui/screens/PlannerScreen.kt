@@ -3,6 +3,14 @@
 package com.iocucino.app.ui.screens
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.SuggestionChip
+import androidx.compose.ui.text.input.KeyboardCapitalization
+import com.iocucino.app.ui.components.fieldColors
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -93,6 +101,7 @@ fun PlannerScreen(
     var menuOpen by remember { mutableStateOf(false) }
     var showGenerate by remember { mutableStateOf(false) }
     var showClear by remember { mutableStateOf(false) }
+    var addFor by remember { mutableStateOf<Pair<LocalDate, Meal>?>(null) }
     val snackbar = remember { SnackbarHostState() }
     val scope = rememberCoroutineScope()
 
@@ -229,11 +238,12 @@ fun PlannerScreen(
                         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
                             entries.forEach { entry ->
                                 val r = recipeById[entry.recipeId]
+                                val isCustom = entry.custom.isNotBlank()
                                 SageRow(onClick = if (r != null) ({ onOpenRecipe(entry.recipeId) }) else null) {
-                                    Text(r?.emoji ?: "🍽️", fontSize = 22.sp)
+                                    Text(if (isCustom) "✨" else (r?.emoji ?: "🍽️"), fontSize = 22.sp)
                                     Spacer(Modifier.width(10.dp))
                                     Text(
-                                        r?.title ?: "Ricetta non più disponibile",
+                                        if (isCustom) entry.custom else (r?.title ?: "Ricetta non più disponibile"),
                                         style = MaterialTheme.typography.bodyLarge,
                                         color = Pal.Ink,
                                         maxLines = 2,
@@ -255,7 +265,7 @@ fun PlannerScreen(
                             }
                             Row(
                                 modifier = Modifier
-                                    .clickable { onPick(date, meal) }
+                                    .clickable { addFor = date to meal }
                                     .padding(vertical = 4.dp),
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
@@ -277,6 +287,19 @@ fun PlannerScreen(
                 }
             }
         }
+    }
+
+    addFor?.let { (date, meal) ->
+        AddMealDialog(
+            title = "${dayFull(date)} · ${meal.label}",
+            previous = vm.repo.customDishes(),
+            onDismiss = { addFor = null },
+            onPickRecipe = { addFor = null; onPick(date, meal) },
+            onAddCustom = { text ->
+                vm.repo.addCustomPlan(date, meal, text)
+                addFor = null
+            }
+        )
     }
 
     if (showGenerate) {
@@ -349,6 +372,71 @@ private fun GenerateDialog(onDismiss: () -> Unit, onConfirm: (Int, Boolean) -> U
         },
         confirmButton = {
             AppButton(text = "Proponi", compact = true, onClick = { onConfirm(level, pantryFirst) })
+        },
+        dismissButton = { TextButton(onClick = onDismiss) { Text("Annulla", color = Pal.InkSoft) } }
+    )
+}
+
+/** Aggiunta di un pasto: una ricetta del catalogo oppure un piatto scritto a mano. */
+@Composable
+private fun AddMealDialog(
+    title: String,
+    previous: List<String>,
+    onDismiss: () -> Unit,
+    onPickRecipe: () -> Unit,
+    onAddCustom: (String) -> Unit
+) {
+    var text by remember { mutableStateOf("") }
+    val matches = remember(text, previous) {
+        val q = text.trim()
+        previous.filter { q.isEmpty() || (it.contains(q, ignoreCase = true) && !it.equals(q, ignoreCase = true)) }
+            .take(6)
+    }
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        containerColor = Pal.Cream,
+        title = { Text(title, color = Pal.Green) },
+        text = {
+            Column {
+                AppButton(
+                    text = "Scegli tra le ricette",
+                    style = BtnStyle.Green,
+                    onClick = onPickRecipe,
+                    modifier = Modifier.fillMaxWidth()
+                )
+                Spacer(Modifier.height(16.dp))
+                SectionLabel("Oppure scrivi un piatto tuo")
+                Spacer(Modifier.height(6.dp))
+                OutlinedTextField(
+                    value = text,
+                    onValueChange = { text = it },
+                    placeholder = { Text("Es. Pizza fatta in casa") },
+                    singleLine = true,
+                    shape = RoundedCornerShape(16.dp),
+                    colors = fieldColors(),
+                    keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.Sentences),
+                    modifier = Modifier.fillMaxWidth()
+                )
+                if (matches.isNotEmpty()) {
+                    Spacer(Modifier.height(8.dp))
+                    Row(
+                        modifier = Modifier.horizontalScroll(rememberScrollState()),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        matches.forEach { m ->
+                            SuggestionChip(onClick = { text = m }, label = { Text(m) })
+                        }
+                    }
+                }
+            }
+        },
+        confirmButton = {
+            AppButton(
+                text = "Aggiungi",
+                enabled = text.isNotBlank(),
+                compact = true,
+                onClick = { onAddCustom(text) }
+            )
         },
         dismissButton = { TextButton(onClick = onDismiss) { Text("Annulla", color = Pal.InkSoft) } }
     )

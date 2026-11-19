@@ -166,7 +166,7 @@ fun SettingsScreen(vm: MainViewModel, onBack: () -> Unit) {
         CreamCard {
             Text("Io cucino!", style = MaterialTheme.typography.titleMedium, color = Pal.Green)
             Text(
-                "Versione 0.2 · Ricette, menù settimanale, lista della spesa e dispensa.",
+                "Versione 0.3 · Ricette di stagione, menù settimanale con piatti liberi, lista della spesa, dispensa e widget.",
                 style = MaterialTheme.typography.bodyMedium,
                 color = Pal.InkSoft
             )

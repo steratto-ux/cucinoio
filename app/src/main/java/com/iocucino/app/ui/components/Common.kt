@@ -147,7 +147,8 @@ fun RecipeCard(
     favorite: Boolean,
     coverage: Pair<Int, Int>?,
     onClick: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    seasonal: Boolean = false
 ) {
     Card(
         onClick = onClick,
@@ -169,6 +170,14 @@ fun RecipeCard(
                     style = MaterialTheme.typography.labelSmall,
                     color = Color(0xFF3A2A25),
                     modifier = Modifier.padding(horizontal = 8.dp, vertical = 3.dp)
+                )
+            }
+            if (seasonal) {
+                Tag(
+                    text = "Di stagione",
+                    container = Pal.Mint,
+                    content = Pal.MintText,
+                    modifier = Modifier.align(Alignment.BottomStart).padding(8.dp)
                 )
             }
             if (favorite) {

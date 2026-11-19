@@ -40,6 +40,9 @@ class Repository(private val ctx: Context) {
 
     private var aisleIndex: Map<String, Aisle> = emptyMap()
 
+    /** Chiamata ogni volta che il menu' cambia: serve ad aggiornare il widget. */
+    var onMenuChanged: () -> Unit = {}
+
     // Foto: quelle del catalogo, quelle trovate su Wikipedia e quelle scattate dall'utente.
     private var catalog: List<Recipe> = emptyList()
     private var userPhotos: Map<String, String> = emptyMap() // id ricetta -> percorso file
@@ -68,6 +71,7 @@ class Repository(private val ctx: Context) {
         pantry.value = readList("pantry.json") { it.toPantryItem() }
         shopping.value = readList("shopping.json") { it.toShoppingItem() }
         plan.value = readList("plan.json") { it.toPlanEntry() }
+        publishMenuSnapshot()
     }
 
     private fun newId(): String = UUID.randomUUID().toString()
@@ -109,6 +113,7 @@ class Repository(private val ctx: Context) {
 
     /** Pubblica l'elenco ricette con la foto da mostrare: la tua, poi quella del catalogo, poi quella di Wikipedia. */
     private fun publishRecipes() {
+        val first = recipes.value.isEmpty()
         recipes.value = catalog.map { r ->
             val mine = userPhotos[r.id]?.takeIf { File(it).exists() }
             val wiki = wikiPhotos[r.id]
@@ -119,6 +124,7 @@ class Repository(private val ctx: Context) {
                 else -> r
             }
         }
+        if (!first) publishMenuSnapshot()
     }
 
     private fun loadMap(key: String): Map<String, String> {
@@ -442,6 +448,21 @@ class Repository(private val ctx: Context) {
         savePlan()
     }
 
+    /** Aggiunge al menu' un piatto libero, che non e' tra le ricette. */
+    fun addCustomPlan(date: LocalDate, meal: Meal, title: String) {
+        val t = title.trim()
+        if (t.isEmpty()) return
+        plan.update { it + PlanEntry(newId(), date.toString(), meal, "", settings.value.servings, t.cap()) }
+        savePlan()
+    }
+
+    /** Piatti liberi gia' usati, i piu' recenti per primi: per riproporli con un tocco. */
+    fun customDishes(): List<String> =
+        plan.value.filter { it.custom.isNotBlank() }
+            .sortedByDescending { it.date }
+            .map { it.custom }
+            .distinctBy { it.lowercase() }
+
     fun removePlan(id: String) {
         plan.update { list -> list.filter { it.id != id } }
         savePlan()
@@ -468,10 +489,15 @@ class Repository(private val ctx: Context) {
         val used = plan.value.map { it.recipeId }.toMutableSet()
         val added = ArrayList<PlanEntry>()
 
+        val month = today.monthValue
         fun pick(list: List<Recipe>): Recipe? {
             if (list.isEmpty()) return null
-            var cand = list.filter { it.id !in used }
-            if (cand.isEmpty()) cand = list
+            // Meglio i piatti di stagione: quelli fuori stagione solo se non c'e' altro.
+            val ok = list.filter { Season.status(it, month) != SeasonStatus.OUT }
+            val pool = if (ok.isEmpty()) list else ok
+            var cand = pool.filter { it.id !in used }
+            if (cand.isEmpty()) cand = pool
+            cand = cand + cand.filter { Season.status(it, month) == SeasonStatus.IN }
             if (preferPantry) {
                 cand = cand.sortedByDescending { r ->
                     r.ingredients.count { !it.staple && keyOf(it.name) in pantryKeys }
@@ -543,5 +569,20 @@ class Repository(private val ctx: Context) {
         val arr = JSONArray()
         plan.value.forEach { arr.put(it.toJson()) }
         writeJson("plan.json", arr)
+        publishMenuSnapshot()
+    }
+
+    /** Copia leggera del menu' (da ieri in poi), letta dal widget senza avviare l'app. */
+    private fun publishMenuSnapshot() {
+        val titles = recipes.value.associate { it.id to it.title }
+        val from = LocalDate.now().minusDays(1).toString()
+        val arr = JSONArray()
+        for (e in plan.value.filter { it.date >= from }.sortedBy { it.date }) {
+            val t = if (e.custom.isNotBlank()) e.custom else titles[e.recipeId]
+            if (t == null) continue
+            arr.put(JSONObject().put("d", e.date).put("m", e.meal.name).put("t", t))
+        }
+        prefs.edit().putString("widgetMenu", arr.toString()).apply()
+        onMenuChanged()
     }
 }

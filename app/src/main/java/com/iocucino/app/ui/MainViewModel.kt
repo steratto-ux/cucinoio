@@ -3,6 +3,7 @@ package com.iocucino.app.ui
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.iocucino.app.MenuWidgetProvider
 import com.iocucino.app.data.Repository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
@@ -15,6 +16,10 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
     val pantryMode = MutableStateFlow(false)
 
     init {
+        // Ogni modifica al menu' aggiorna il widget "Menu' di oggi".
+        val appContext = app.applicationContext
+        repo.onMenuChanged = { MenuWidgetProvider.refreshAll(appContext) }
+        MenuWidgetProvider.refreshAll(appContext)
         viewModelScope.launch {
             // Aggiornamento automatico del catalogo online, al massimo una volta ogni 12 ore.
             val s = repo.settings.value
